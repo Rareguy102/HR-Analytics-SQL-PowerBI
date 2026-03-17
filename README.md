@@ -1,19 +1,24 @@
 # HR Analytics Dashboard Project
 
-## Tools Used
-- SQL
-- Excel
+## 📊 Tools Used
+- SQL (MySQL / Oracle SQL)
+- Microsoft Excel
 - Power BI
 
-## Project Description
-This project analyzes employee data using SQL and visualizes insights using Power BI.
+## 📌 Project Description
+This project analyzes employee data using SQL queries and visualizes insights using Power BI dashboard.
 
-## Key Insights
+## 📈 Key Insights
 - Employees per department
 - Job role distribution
 - Salary analysis
 - Average salary per department
 
-## Dashboard Preview
+## 🖼 Dashboard Preview
+![Dashboard](dashboard.png)
 
-![Dashboard](Dashboard.png)
+## 📂 Project Files
+- SQL_Queries.sql
+- HR_Analytics_Data.xlsx
+- PowerBI_Dashboard.pbix
+- dashboard.png
