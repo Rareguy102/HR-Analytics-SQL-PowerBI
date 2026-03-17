@@ -1,0 +1,30 @@
+Queries:
+
+1️⃣ Employee Count per Department
+SELECT d.dname, COUNT(e.empno) AS total_employees
+FROM emp e
+JOIN dept d ON e.deptno = d.deptno
+GROUP BY d.dname;
+
+2️⃣ Average Salary per Department
+SELECT d.dname, AVG(e.sal) AS avg_salary
+FROM emp e
+JOIN dept d ON e.deptno = d.deptno
+GROUP BY d.dname;
+
+3️⃣ Highest Paid Employees
+SELECT ename, job, sal
+FROM emp
+ORDER BY sal DESC;
+
+4️⃣ Job Role Distribution
+SELECT job, COUNT(*) AS total
+FROM emp
+GROUP BY job;
+
+5️⃣ Salary Grade Distribution
+SELECT s.grade, COUNT(e.empno) AS total_employees
+FROM emp e
+JOIN salgrade s
+ON e.sal BETWEEN s.losal AND s.hisal
+GROUP BY s.grade;
