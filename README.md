@@ -15,7 +15,7 @@ This project analyzes employee data using SQL queries and visualizes insights us
 - Average salary per department
 
 ## 🖼 Dashboard Preview
-![Dashboard](dashboard.png)
+![Dashboard](Dashboard.png)
 
 ## 📂 Project Files
 - SQL_Queries.sql
